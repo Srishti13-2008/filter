@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Introduction to p5.js</h3>
+  
+  <br><br>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-info">Hexa Code <br>
+    <label>Lavender= #E6E6FA,</label>
+    <label>Lavender Blush=  #fff0f5, </label>
+    <label>Misty Rose= #ffe4e1,</label>
+    <label>Pastel Blue=  #AEC6CF,</label>
+    <label>Aqua Blue= #0FFFFF,</label>
+    <label>Baby Blue= #89CFF0</label>
+    <label> These Hex codes can be used in the filter color.</label>
+  </div>
+  <br><br><br><br>
+  <label>Filter Color</label>
+    <input id="color_name" placeholder="enter filter color (hex codes also)"><br><br><br>
+    <button onclick="filter1()" class="btn btn-info">Apply Filter</button>
+	<hr>
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
